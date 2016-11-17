@@ -1,12 +1,19 @@
 PODS:
   - Alamofire (4.0.1)
+  - AlamofireImage (3.1.0):
+    - Alamofire (~> 4.0)
+  - Pulsator (0.2.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.0)
+  - AlamofireImage (~> 3.1)
+  - Pulsator
 
 SPEC CHECKSUMS:
   Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  AlamofireImage: bb8c8351c51cb1633bb6be69b6dbbaff37ce65b7
+  Pulsator: 0df1d24c09354555be8f4c386ba7c4df297690eb
 
-PODFILE CHECKSUM: a42ecbdcf137ed57d7c4e09952a832042db45337
+PODFILE CHECKSUM: 48b4747628f8a8e030279529580b693d63c1c444
 
 COCOAPODS: 1.1.0.rc.2
