@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4EFF916F746E5BE2AE48F331 /* Pods_WoW_Sports_Test_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC0A0D22EB471A19FFBF5296 /* Pods_WoW_Sports_Test_App.framework */; };
+		5652447C4EBAB6C961BCD82E /* Pods_WoW_Sports_Test_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B12C5016EE8AF7D8965A6AC /* Pods_WoW_Sports_Test_AppUITests.framework */; };
 		CC59251C1DDD720D00EA8587 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC59251B1DDD720D00EA8587 /* AppDelegate.swift */; };
 		CC59251E1DDD720D00EA8587 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC59251D1DDD720D00EA8587 /* ViewController.swift */; };
 		CC5925211DDD720D00EA8587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC59251F1DDD720D00EA8587 /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		CC5925261DDD720D00EA8587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5925241DDD720D00EA8587 /* LaunchScreen.storyboard */; };
 		CC5925311DDD720D00EA8587 /* WoW_Sports_Test_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5925301DDD720D00EA8587 /* WoW_Sports_Test_AppTests.swift */; };
 		CC59253C1DDD720D00EA8587 /* WoW_Sports_Test_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC59253B1DDD720D00EA8587 /* WoW_Sports_Test_AppUITests.swift */; };
+		F9E8114B3AA3C6D61B18A3B4 /* Pods_WoW_Sports_Test_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35B7553EB86C8601C464A90 /* Pods_WoW_Sports_Test_AppTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42386367DD2A650A59C0A64D /* Pods-WoW Sports Test App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoW Sports Test App.release.xcconfig"; path = "Pods/Target Support Files/Pods-WoW Sports Test App/Pods-WoW Sports Test App.release.xcconfig"; sourceTree = "<group>"; };
+		4EC715E6CD383D225F7D5B43 /* Pods-WoW Sports Test App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoW Sports Test App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WoW Sports Test App/Pods-WoW Sports Test App.debug.xcconfig"; sourceTree = "<group>"; };
+		79794378E3E0D1F81EC10628 /* Pods-WoW Sports Test AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoW Sports Test AppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WoW Sports Test AppTests/Pods-WoW Sports Test AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9B12C5016EE8AF7D8965A6AC /* Pods_WoW_Sports_Test_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WoW_Sports_Test_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2E33B3E67D44B38EB70869 /* Pods-WoW Sports Test AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoW Sports Test AppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WoW Sports Test AppUITests/Pods-WoW Sports Test AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC5925181DDD720D00EA8587 /* WoW Sports Test App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WoW Sports Test App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC59251B1DDD720D00EA8587 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC59251D1DDD720D00EA8587 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		CC5925371DDD720D00EA8587 /* WoW Sports Test AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WoW Sports Test AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC59253B1DDD720D00EA8587 /* WoW_Sports_Test_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoW_Sports_Test_AppUITests.swift; sourceTree = "<group>"; };
 		CC59253D1DDD720D00EA8587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0A0D22EB471A19FFBF5296 /* Pods_WoW_Sports_Test_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WoW_Sports_Test_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F35B7553EB86C8601C464A90 /* Pods_WoW_Sports_Test_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WoW_Sports_Test_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A158B50C8CDE76D3D13199 /* Pods-WoW Sports Test AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoW Sports Test AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WoW Sports Test AppTests/Pods-WoW Sports Test AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		FAE5D97B22EEB3B491781A99 /* Pods-WoW Sports Test AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoW Sports Test AppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WoW Sports Test AppUITests/Pods-WoW Sports Test AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EFF916F746E5BE2AE48F331 /* Pods_WoW_Sports_Test_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E8114B3AA3C6D61B18A3B4 /* Pods_WoW_Sports_Test_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5652447C4EBAB6C961BCD82E /* Pods_WoW_Sports_Test_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		760BE265F01A1032880BC283 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC0A0D22EB471A19FFBF5296 /* Pods_WoW_Sports_Test_App.framework */,
+				F35B7553EB86C8601C464A90 /* Pods_WoW_Sports_Test_AppTests.framework */,
+				9B12C5016EE8AF7D8965A6AC /* Pods_WoW_Sports_Test_AppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99D48965BFE361A32227AA14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EC715E6CD383D225F7D5B43 /* Pods-WoW Sports Test App.debug.xcconfig */,
+				42386367DD2A650A59C0A64D /* Pods-WoW Sports Test App.release.xcconfig */,
+				79794378E3E0D1F81EC10628 /* Pods-WoW Sports Test AppTests.debug.xcconfig */,
+				F9A158B50C8CDE76D3D13199 /* Pods-WoW Sports Test AppTests.release.xcconfig */,
+				9E2E33B3E67D44B38EB70869 /* Pods-WoW Sports Test AppUITests.debug.xcconfig */,
+				FAE5D97B22EEB3B491781A99 /* Pods-WoW Sports Test AppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CC59250F1DDD720D00EA8587 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				CC59252F1DDD720D00EA8587 /* WoW Sports Test AppTests */,
 				CC59253A1DDD720D00EA8587 /* WoW Sports Test AppUITests */,
 				CC5925191DDD720D00EA8587 /* Products */,
+				99D48965BFE361A32227AA14 /* Pods */,
+				760BE265F01A1032880BC283 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +137,15 @@
 		CC59251A1DDD720D00EA8587 /* WoW Sports Test App */ = {
 			isa = PBXGroup;
 			children = (
-				CC59251B1DDD720D00EA8587 /* AppDelegate.swift */,
-				CC59251D1DDD720D00EA8587 /* ViewController.swift */,
+				CC59254F1DDD723E00EA8587 /* protocols */,
+				CC59254E1DDD723900EA8587 /* constants */,
+				CC59254D1DDD723300EA8587 /* extensions */,
+				CC59254C1DDD723000EA8587 /* views */,
+				CC59254B1DDD722B00EA8587 /* models */,
+				CC59254A1DDD722400EA8587 /* controllers */,
+				CC5925491DDD721F00EA8587 /* supporting */,
 				CC59251F1DDD720D00EA8587 /* Main.storyboard */,
 				CC5925221DDD720D00EA8587 /* Assets.xcassets */,
-				CC5925241DDD720D00EA8587 /* LaunchScreen.storyboard */,
-				CC5925271DDD720D00EA8587 /* Info.plist */,
 			);
 			path = "WoW Sports Test App";
 			sourceTree = "<group>";
@@ -125,6 +168,59 @@
 			path = "WoW Sports Test AppUITests";
 			sourceTree = "<group>";
 		};
+		CC5925491DDD721F00EA8587 /* supporting */ = {
+			isa = PBXGroup;
+			children = (
+				CC5925271DDD720D00EA8587 /* Info.plist */,
+				CC5925241DDD720D00EA8587 /* LaunchScreen.storyboard */,
+				CC59251B1DDD720D00EA8587 /* AppDelegate.swift */,
+			);
+			name = supporting;
+			sourceTree = "<group>";
+		};
+		CC59254A1DDD722400EA8587 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC59251D1DDD720D00EA8587 /* ViewController.swift */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		CC59254B1DDD722B00EA8587 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		CC59254C1DDD723000EA8587 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		CC59254D1DDD723300EA8587 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = extensions;
+			sourceTree = "<group>";
+		};
+		CC59254E1DDD723900EA8587 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = constants;
+			sourceTree = "<group>";
+		};
+		CC59254F1DDD723E00EA8587 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = protocols;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC5925401DDD720D00EA8587 /* Build configuration list for PBXNativeTarget "WoW Sports Test App" */;
 			buildPhases = (
+				0A87180722619A3BAE10591B /* [CP] Check Pods Manifest.lock */,
 				CC5925141DDD720D00EA8587 /* Sources */,
 				CC5925151DDD720D00EA8587 /* Frameworks */,
 				CC5925161DDD720D00EA8587 /* Resources */,
+				331859257C344EF3D95BB5C4 /* [CP] Embed Pods Frameworks */,
+				E7D1BE9CCAC82F05F70766B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC5925431DDD720D00EA8587 /* Build configuration list for PBXNativeTarget "WoW Sports Test AppTests" */;
 			buildPhases = (
+				2AA3FFA62E82CEA8113C995E /* [CP] Check Pods Manifest.lock */,
 				CC5925281DDD720D00EA8587 /* Sources */,
 				CC5925291DDD720D00EA8587 /* Frameworks */,
 				CC59252A1DDD720D00EA8587 /* Resources */,
+				A4DC0A26F3E8222EFC62DB21 /* [CP] Embed Pods Frameworks */,
+				0623602995E6A06A292429EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC5925461DDD720D00EA8587 /* Build configuration list for PBXNativeTarget "WoW Sports Test AppUITests" */;
 			buildPhases = (
+				7E1BC8908F009D125F9CECD6 /* [CP] Check Pods Manifest.lock */,
 				CC5925331DDD720D00EA8587 /* Sources */,
 				CC5925341DDD720D00EA8587 /* Frameworks */,
 				CC5925351DDD720D00EA8587 /* Resources */,
+				4A89CDEA30BCCFC1DDA9DE7D /* [CP] Embed Pods Frameworks */,
+				49C918AC4D6055B93514BB4C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +361,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0623602995E6A06A292429EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WoW Sports Test AppTests/Pods-WoW Sports Test AppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0A87180722619A3BAE10591B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2AA3FFA62E82CEA8113C995E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		331859257C344EF3D95BB5C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WoW Sports Test App/Pods-WoW Sports Test App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49C918AC4D6055B93514BB4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WoW Sports Test AppUITests/Pods-WoW Sports Test AppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A89CDEA30BCCFC1DDA9DE7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WoW Sports Test AppUITests/Pods-WoW Sports Test AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E1BC8908F009D125F9CECD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4DC0A26F3E8222EFC62DB21 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WoW Sports Test AppTests/Pods-WoW Sports Test AppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7D1BE9CCAC82F05F70766B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WoW Sports Test App/Pods-WoW Sports Test App-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC5925141DDD720D00EA8587 /* Sources */ = {
@@ -413,10 +656,12 @@
 		};
 		CC5925411DDD720D00EA8587 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EC715E6CD383D225F7D5B43 /* Pods-WoW Sports Test App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RAHADHP5A7;
 				INFOPLIST_FILE = "WoW Sports Test App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.wowsports.test.WoW-Sports-Test-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -426,10 +671,12 @@
 		};
 		CC5925421DDD720D00EA8587 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42386367DD2A650A59C0A64D /* Pods-WoW Sports Test App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = RAHADHP5A7;
 				INFOPLIST_FILE = "WoW Sports Test App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.wowsports.test.WoW-Sports-Test-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +686,7 @@
 		};
 		CC5925441DDD720D00EA8587 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79794378E3E0D1F81EC10628 /* Pods-WoW Sports Test AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +702,7 @@
 		};
 		CC5925451DDD720D00EA8587 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9A158B50C8CDE76D3D13199 /* Pods-WoW Sports Test AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +718,7 @@
 		};
 		CC5925471DDD720D00EA8587 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E2E33B3E67D44B38EB70869 /* Pods-WoW Sports Test AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = RAHADHP5A7;
@@ -483,6 +733,7 @@
 		};
 		CC5925481DDD720D00EA8587 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAE5D97B22EEB3B491781A99 /* Pods-WoW Sports Test AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = RAHADHP5A7;
@@ -514,6 +765,7 @@
 				CC5925421DDD720D00EA8587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC5925431DDD720D00EA8587 /* Build configuration list for PBXNativeTarget "WoW Sports Test AppTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +774,7 @@
 				CC5925451DDD720D00EA8587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC5925461DDD720D00EA8587 /* Build configuration list for PBXNativeTarget "WoW Sports Test AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +783,7 @@
 				CC5925481DDD720D00EA8587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

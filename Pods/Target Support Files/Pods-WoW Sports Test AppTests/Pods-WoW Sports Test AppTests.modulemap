@@ -1,0 +1,6 @@
+framework module Pods_WoW_Sports_Test_AppTests {
+  umbrella header "Pods-WoW Sports Test AppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
