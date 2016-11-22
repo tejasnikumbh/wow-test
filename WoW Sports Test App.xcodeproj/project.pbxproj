@@ -29,6 +29,7 @@
 		CC5925541DDD862A00EA8587 /* WUIElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5925531DDD862A00EA8587 /* WUIElements.swift */; };
 		CC59255A1DDD8C6C00EA8587 /* Pulsator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC5925591DDD8C6C00EA8587 /* Pulsator.framework */; };
 		CC59255C1DDD8C7600EA8587 /* Pulsator.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CC5925591DDD8C6C00EA8587 /* Pulsator.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CCE92D491DE458A00056BF11 /* WNetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE92D481DE458A00056BF11 /* WNetworkingManager.swift */; };
 		F9E8114B3AA3C6D61B18A3B4 /* Pods_WoW_Sports_Test_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35B7553EB86C8601C464A90 /* Pods_WoW_Sports_Test_AppTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +96,7 @@
 		CC5925531DDD862A00EA8587 /* WUIElements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WUIElements.swift; sourceTree = "<group>"; };
 		CC5925551DDD8B3200EA8587 /* Pulsator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pulsator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC5925591DDD8C6C00EA8587 /* Pulsator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pulsator.framework; path = "../../Library/Developer/Xcode/DerivedData/WoW_Sports_Test_App-glyswkeietfwpxdozujnwfuuqqul/Build/Products/Debug-iphoneos/Pulsator/Pulsator.framework"; sourceTree = "<group>"; };
+		CCE92D481DE458A00056BF11 /* WNetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WNetworkingManager.swift; sourceTree = "<group>"; };
 		EC0A0D22EB471A19FFBF5296 /* Pods_WoW_Sports_Test_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WoW_Sports_Test_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35B7553EB86C8601C464A90 /* Pods_WoW_Sports_Test_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WoW_Sports_Test_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A158B50C8CDE76D3D13199 /* Pods-WoW Sports Test AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WoW Sports Test AppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WoW Sports Test AppTests/Pods-WoW Sports Test AppTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				CC1DC93E1DDDA26B001191C3 /* WCompetitionManager.swift */,
+				CCE92D481DE458A00056BF11 /* WNetworkingManager.swift */,
 			);
 			name = managers;
 			sourceTree = "<group>";
@@ -569,6 +572,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC59251E1DDD720D00EA8587 /* WLaunchViewController.swift in Sources */,
+				CCE92D491DE458A00056BF11 /* WNetworkingManager.swift in Sources */,
 				CC1DC9431DDDA41B001191C3 /* WConstants.swift in Sources */,
 				CC1DC94C1DDDC594001191C3 /* CardDismissAnimator.swift in Sources */,
 				CC59251C1DDD720D00EA8587 /* AppDelegate.swift in Sources */,

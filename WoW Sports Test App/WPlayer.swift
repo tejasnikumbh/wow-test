@@ -10,8 +10,6 @@ import UIKit
 import Alamofire
 import AlamofireImage
 
-typealias WNetworkCallCompletion = (_ success: Bool) -> ()
-
 class WPlayer {
     
     var userId: Int? = nil
@@ -24,8 +22,7 @@ class WPlayer {
     var otherImageURLs: [String]? = nil
     var otherImages: [UIImage]? = nil
     
-    init(userId: Int, name: String, ranking: Int,
-         profilePicture: UIImage, profilePictureURL: String,
+    init(userId: Int, name: String, ranking: Int, profilePictureURL: String,
          winCount: Int, judgeCount: Int, otherImageURLs: [String]) {
         self.userId = userId
         self.ranking = ranking
@@ -34,7 +31,22 @@ class WPlayer {
         self.winCount = winCount
         self.judgeCount = judgeCount
         self.otherImageURLs = otherImageURLs
-        self.profilePicture = profilePicture
+    }
+    
+    /*
+     * Method: convienience init
+     *
+     * Discussion: Convienience initializer that initializes a JSON Object from response returned
+     */
+    convenience init?(player: [String: AnyObject]) {
+        guard let userId = player["userId"] as? String,
+            let name = player["name"] as? String,
+            let profilePictureURL = player["profilePicture"] as? String,
+            let ranking = player["ranking"] as? Int,
+            let winCount = player["winCount"] as? Int,
+            let judgeCount = player["judgeCount"] as? Int,
+            let otherImageURLs = player["images"] as? [String] else { return nil }
+        self.init(userId: Int(userId)!, name: name, ranking: ranking, profilePictureURL: profilePictureURL, winCount: winCount,judgeCount: judgeCount, otherImageURLs: otherImageURLs)
     }
     
     /*
@@ -63,6 +75,7 @@ class WPlayer {
             
             if let image = response.result.value {
                 print("image downloaded: \(image)")
+                self.profilePicture = image
                 guard let completion = completion else { return }
                 completion(true)
             } else {

@@ -9,7 +9,6 @@
 import UIKit
 import Pulsator
 import Alamofire
-import AlamofireImage
 
 class WLaunchViewController: UIViewController {
     // MARK:- IBOutlets and Properties
@@ -19,6 +18,7 @@ class WLaunchViewController: UIViewController {
     @IBOutlet weak var getStartedButton: UIButton!
     @IBOutlet weak var getStartedBottomConstraint: NSLayoutConstraint!
     
+    @IBOutlet weak var loadingLabel: UILabel!
     var pulsator = Pulsator()
     
     // MARK:- View Lifecycle Methods
@@ -38,15 +38,20 @@ class WLaunchViewController: UIViewController {
             return
         }
         
-        loadPlayersFromServer(completion: {
+        // Using Networking Manager to handle async calls
+        loadingLabel.isHidden = false
+        WNetworkingManager.sharedInstance.loadPlayersFromServer(completion: {
             (success) in
+            self.loadingLabel.isHidden = true
             if !success {
                 self.pulsator.stop()
                 self.pulsator.removeFromSuperlayer()
                 let dialog = WUIElements.dialog(
                     message: "Unable to sync with server, please try again later")
                 self.present(dialog, animated: true, completion: nil)
-            } else { self.showGetStartedButton() }
+            } else {
+                self.showGetStartedButton()
+            }
         })
     }
     
@@ -76,19 +81,6 @@ class WLaunchViewController: UIViewController {
         } else {
             getStartedBottomConstraint.constant = 80.0
         }
-    }
-    
-    // MARK:- Util Methods for View Controller
-    func loadPlayersFromServer(completion: @escaping (_ success: Bool) -> ()) {
-        // Currently instantiating static player instances since Web API Not working
-        let federer = WPlayer(userId: 32, name: "Roger Federer", ranking: 2, profilePicture: UIImage(named:"federer")!, profilePictureURL: "https://upload.wikimedia.org/wikipedia/commons/3/3c/Roger_Federer_%2826_June_2009%2C_Wimbledon%29_2_new.jpg", winCount: 3, judgeCount: 5, otherImageURLs: ["http://e2.365dm.com/16/01/16-9/20/roger-federer-atp-tennis_3396787.jpg?20160108131527", "http://d.ibtimes.co.uk/en/full/1457562/roger-federer.jpg"])
-        let nadal = WPlayer(userId: 12, name: "Rafael Nadal", ranking: 1, profilePicture: UIImage(named:"nadal")!, profilePictureURL: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Rafael_Nadal_January_2015.jpg", winCount: 10, judgeCount: 12, otherImageURLs: ["http://wpc.e0ad.edgecastcdn.net/00E0AD/images/the-philippine-star/sports/20150624/PS-Nadal.jpg", "http://i.dailymail.co.uk/i/pix/2015/06/02/12/2941A10000000578-0-image-a-78_1433246116261.jpg"])
-        WCompetitionManager.sharedInstance.playerOne = federer
-        WCompetitionManager.sharedInstance.playerTwo = nadal
-        // Delay for simulating loading of players
-        DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(2), execute: {
-            completion(true)
-        })
     }
     
     func showGetStartedButton() {

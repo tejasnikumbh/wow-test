@@ -57,14 +57,21 @@
                                     <action selector="getStartedTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C13-h5-x1t"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EEM-Km-u8u">
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="18"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.81176470588235294" green="0.062745098039215685" blue="0.1764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="EEM-Km-u8u" firstAttribute="centerX" secondItem="4ew-hk-WGF" secondAttribute="centerX" id="2zv-pi-tZm"/>
                             <constraint firstItem="asy-eA-JG0" firstAttribute="centerX" secondItem="3oY-mp-rlj" secondAttribute="centerX" constant="4" id="8ug-LD-e1o"/>
                             <constraint firstItem="4ew-hk-WGF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DoX-27-Qzx"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4ew-hk-WGF" secondAttribute="bottom" constant="48" id="L4x-K5-Gto"/>
                             <constraint firstItem="asy-eA-JG0" firstAttribute="centerY" secondItem="3oY-mp-rlj" secondAttribute="centerY" constant="4" id="hJe-Hz-v22"/>
                             <constraint firstItem="3oY-mp-rlj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jra-pc-ZQq"/>
+                            <constraint firstItem="4ew-hk-WGF" firstAttribute="top" secondItem="EEM-Km-u8u" secondAttribute="bottom" constant="28" id="tol-FX-69K"/>
                             <constraint firstItem="3oY-mp-rlj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uof-yw-E9j"/>
                         </constraints>
                     </view>
@@ -72,6 +79,7 @@
                         <outlet property="getStartedBottomConstraint" destination="L4x-K5-Gto" id="aj2-wo-5Ot"/>
                         <outlet property="getStartedButton" destination="4ew-hk-WGF" id="cVp-iR-h2c"/>
                         <outlet property="iconImageView" destination="3oY-mp-rlj" id="ckL-d9-C7r"/>
+                        <outlet property="loadingLabel" destination="EEM-Km-u8u" id="eyu-iP-Di6"/>
                         <outlet property="pulseOrigin" destination="asy-eA-JG0" id="jLZ-Hi-0cJ"/>
                     </connections>
                 </viewController>

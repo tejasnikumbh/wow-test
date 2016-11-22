@@ -101,6 +101,8 @@ class WHomeViewController: UIViewController {
             let secondImage = UIImage(named: "up")
             setupWinner(firstImage: firstImage!, secondImage: secondImage!)
         }
+        firstPlayerImageView.image = WCompetitionManager.sharedInstance.playerOne?.profilePicture
+        secondPlayerImageView.image = WCompetitionManager.sharedInstance.playerTwo?.profilePicture
     }
     
     func setupWinner(firstImage: UIImage, secondImage: UIImage) {
